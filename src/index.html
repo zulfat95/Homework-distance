@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="ml-3">
+    <h1>Расход топлива</h1>
+    <label class="mb-3 mr-3" for="amountOfFuel">Введите объем имеющегося топлива(л):</label><input id="amountOfFuel"><br>
+    <label class="mb-3 mr-3" for="consumptionOfHundredKm">Введите расход топлива на 100км:</label><input id="consumptionOfHundredKm"><br>
+    <button class="mb-1 btn btn-success" id="calculate">Рассчитать</button>
+    <p>Расстояние, на которое хватит топлива: <span id="result"></span></p>
+</div>
+<script src="js/app.js" type="module"></script>
+<script src="js/lib.js" type="module"></script>
+</body>
+</html>
